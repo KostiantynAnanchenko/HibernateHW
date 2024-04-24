@@ -1,4 +1,4 @@
-package Tasks.Entities;
+package Tasks.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

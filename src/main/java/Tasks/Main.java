@@ -4,9 +4,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import Tasks.Entities.Client;
-import Tasks.Entities.Planet;
-import Tasks.CrudServices.PlanetCrudService;
+import Tasks.entities.Client;
+import Tasks.entities.Planet;
+import Tasks.crudServices.PlanetCrudService;
 
 import java.util.List;
 

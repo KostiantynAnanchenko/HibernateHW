@@ -10,7 +10,7 @@
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">root</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
-        <mapping class="Tasks.Entities.Client"/>
-        <mapping class="Tasks.Entities.Planet"/>
+        <mapping class="Tasks.entities.Client"/>
+        <mapping class="Tasks.entities.Planet"/>
     </session-factory>
 </hibernate-configuration>
