@@ -1,2 +1,19 @@
-package Tasks;public class Migration {
+package Tasks;
+
+import org.flywaydb.core.Flyway;
+
+public class Migration {
+    public static void main(String[] args) {
+
+        Flyway flyway = Flyway.configure()
+                .dataSource("jdbc:postgresql://localhost:5432/Hiber_DB", "postgres", "root")
+                .locations("classpath:db/migration")
+                .load();
+
+        flyway.repair();
+
+        flyway.migrate();
+
+        System.out.println("Migration successfully");
+    }
 }
