@@ -1,8 +1,8 @@
-package Tasks.crudServices;
+package tasks.crudServices;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import Tasks.entities.Client;
+import tasks.entities.Client;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
